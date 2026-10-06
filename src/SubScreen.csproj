@@ -14,6 +14,9 @@
     <Deterministic>true</Deterministic>
     <!-- 统一按 C# 7.3 写，配合 .NET Framework 4.7.2 最稳妥 -->
     <LangVersion>7.3</LangVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <!-- 程序图标：exe 文件图标 + 任务栏/Alt+Tab 都用它 -->
+    <ApplicationIcon>app.ico</ApplicationIcon>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,11 +29,8 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <!-- 程序图标：exe 文件图标 + 任务栏/Alt+Tab 都用它 -->
-    <ApplicationIcon>app.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
